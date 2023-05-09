@@ -8,7 +8,7 @@ body{
 }
 h1{
   margin: 40px auto;
-  color: #ff0aa7;
+  color: #0084ff;
   text-align: center;
 }
 ul{
@@ -58,10 +58,11 @@ input, select{
 button{
   color: white;
   border: 0;
-  background: #ff0aa7;
+  background: #0084ff;
   padding: 6px;
   min-width: 80px;
   border-radius: 4px;
+  cursor: pointer;
 }
 footer a{
   text-align: center;
