@@ -7,7 +7,7 @@ invoices.push(invOne);
 invoices.push(invTwo);
 
 invoices.forEach(inv =>{
-    console.log(inv.client, inv.amount, inv.amount)
+    console.log(inv.client, inv.amount, inv.format())
 })
 
 

@@ -5,7 +5,7 @@ let invoices = [];
 invoices.push(invOne);
 invoices.push(invTwo);
 invoices.forEach(inv => {
-    console.log(inv.client, inv.amount, inv.amount);
+    console.log(inv.client, inv.amount, inv.format());
 });
 const form = document.querySelector('.new-item-form');
 const type = document.querySelector('#type');
